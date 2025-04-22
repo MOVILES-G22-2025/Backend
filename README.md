@@ -12,7 +12,7 @@ SeneMarket application uses _Firebase_ as a Backend-as-a-Service (BaaS) to manag
 
 All backend services are managed from the Firebase console.
 
-##  Firebase Services Used
+##  Firebase services used
 
 | Service | Description |
 | - | - |
@@ -20,7 +20,7 @@ All backend services are managed from the Firebase console.
 | Cloud Firestore	| Real-time NoSQL database for storing users, products, favorites and session activities. |
 | Firebase Cloud Storage | Secure storage of product images. |
 
-## General Structure of Firestore
+## General structure of Firestore
 
 The application uses the following example of collection structure:
 
@@ -51,7 +51,7 @@ The application uses the following example of collection structure:
 > - Each document within a collection is identified by its `{documentId}`.
 > - Firestore native data types are used: `string`, `number`, `timestamp`, `array`.
 
-## Advantages of using Firebase as a Backend
+## Advantages of using Firebase as a backend
 
 - Instant deployment without the need to configure servers.
 - Automatic scaling to support user growth.
